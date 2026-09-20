@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="siteTitle">Μουσαῖος · 韩金哲 · 个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IM+Fell+English:ital@0;1&family=IM+Fell+Double+Pica:ital@0;1&family=UnifrakturMaguntia&family=Noto+Serif+SC:wght@400;500;600;700&family=GFS+Didot&family=Cardo:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    <script src="texts-data.js"></script>
+</head>
+<body>
+
+<!-- 文艺复兴装帧顶饰 -->
+<div class="binding-top">
+    <div class="binding-guilloche"></div>
+    <div class="binding-centerpiece">✦</div>
+    <div class="binding-guilloche"></div>
+</div>
+
+<header class="topbar">
+    <div class="container nav-wrap">
+        <a href="#" class="logo" data-page="home">
+            <span class="logo-mono">Μουσαῖος</span>
+            <span class="logo-en">HAN JINZHE · 韩金哲</span>
+        </a>
+        <nav class="nav-menu">
+            <a href="#" class="nav-link active" data-page="home" data-i18n="nav.home">卷首</a>
+            <a href="#" class="nav-link" data-page="research" data-i18n="nav.research">研穷</a>
+            <a href="#" class="nav-link" data-page="writings" data-i18n="nav.writings">文录</a>
+            <a href="#" class="nav-link" data-page="gallery" data-i18n="nav.gallery">图志</a>
+            <a href="#" class="nav-link" data-page="contact" data-i18n="nav.contact">缄后</a>
+        </nav>
+        <div class="lang-switch">
+            <button class="lang-btn" data-lang="zh">中</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="de">DE</button>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+
+    <!-- ============= 卷首 ============= -->
+    <section class="page page-home active" id="page-home">
+        <div class="scroll-frame">
+            <div class="scroll-rod top"></div>
+            <div class="scroll-body">
+                <div class="hero">
+                    <div class="hero-portrait">
+                        <div class="portrait-ring-outer"></div>
+                        <div class="portrait-ring-mid"></div>
+                        <div class="portrait-inner">
+                            <svg class="portrait-svg" viewBox="0 0 200 200">
+                                <defs>
+                                    <path id="circlePath" d="M 100, 100 m -75, 0 a 75,75 0 1,1 150,0 a 75,75 0 1,1 -150,0" fill="none"/>
+                                </defs>
+                                <text class="circular-text">
+                                    <textPath href="#circlePath" startOffset="0">ΜΟΥΣΑΙΟΣ · ΜΟΥΣΑΙΟΣ · ΜΟΥΣΑΙΟΣ · </textPath>
+                                </text>
+                            </svg>
+                            <div class="portrait-mono-greek">Μ</div>
+                        </div>
+                    </div>
+                    <div class="hero-text">
+                        <p class="hero-eyebrow" data-i18n="home.eyebrow">— Personalia —</p>
+                        <h1 class="hero-name">韩金哲</h1>
+                        <p class="hero-name-alt">Han Jinzhe · Μουσαῖος</p>
+                        <p class="hero-affil" data-i18n="home.affil">上海交通大学 · 外国语学院</p>
+                        <div class="hero-research">
+                            <span class="research-label" data-i18n="home.researchLabel">— Studia —</span>
+                            <ul class="research-tags">
+                                <li data-i18n="home.r1">古希腊罗马文学</li>
+                                <li data-i18n="home.r2">德意志浪漫主义</li>
+                                <li data-i18n="home.r3">古希腊碑铭学</li>
+                            </ul>
+                        </div>
+                        <div class="hero-cta">
+                            <a href="#" class="btn-ghost" data-page="writings" data-i18n="home.cta">展卷文录 ❧</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fleuron-divider">
+                    <span class="fleur-left"></span>
+                    <span class="fleur-orn">❦</span>
+                    <span class="fleur-right"></span>
+                </div>
+
+                <div class="home-invocation">
+                    <p class="invocation-greek">σκίας ὄναρ ἄνθρωπος</p>
+                    <p class="invocation-trans" data-i18n="home.invocation">"人是梦中之影。"</p>
+                    <p class="invocation-attr">— Pindarus, Pythia, VIII, 95-96</p>
+                </div>
+            </div>
+            <div class="scroll-rod bottom"></div>
+        </div>
+    </section>
+
+    <!-- ============= 研穷 ============= -->
+    <section class="page page-research" id="page-research">
+        <header class="page-head">
+            <div class="page-head-ornament">❧</div>
+            <h2 data-i18n="research.title">研穷三向</h2>
+            <p class="page-head-sub" data-i18n="research.subtitle">— Tres Campi, Una Via —</p>
+        </header>
+
+        <div class="research-grid">
+            <article class="research-card">
+                <div class="card-icon">Α</div>
+                <h3 data-i18n="research.r1.title">古希腊罗马文学</h3>
+                <p data-i18n="research.r1.desc">研读荷马、品达、索福克勒斯与维吉尔，探讨古典叙事中的英雄伦理与命运观。</p>
+                <ul class="card-meta">
+                    <li>Homericum</li>
+                    <li>Tragicum</li>
+                    <li>Aureum Latinitatis</li>
+                </ul>
+            </article>
+            <article class="research-card">
+                <div class="card-icon">❦</div>
+                <h3 data-i18n="research.r2.title">德意志浪漫主义</h3>
+                <p data-i18n="research.r2.desc">关注诺瓦利斯、施莱格尔、荷尔德林，追溯浪漫派对古典精神的回响与再造。</p>
+                <ul class="card-meta">
+                    <li>Jena</li>
+                    <li>Poesie & Mythos</li>
+                    <li>Hölderlin</li>
+                </ul>
+            </article>
+            <article class="research-card">
+                <div class="card-icon">Ι</div>
+                <h3 data-i18n="research.r3.title">古希腊碑铭学</h3>
+                <p data-i18n="research.r3.desc">辑录城邦碑铭，研读法律、丧葬与圣所题铭，从石上文字复原古代社会面貌。</p>
+                <ul class="card-meta">
+                    <li>IG I³</li>
+                    <li>Stelai</li>
+                    <li>Epigraphice</li>
+                </ul>
+            </article>
+        </div>
+
+    </section>
+
+    <!-- ============= 文录 ============= -->
+    <section class="page page-writings" id="page-writings">
+        <header class="page-head">
+            <div class="page-head-ornament">❦</div>
+            <h2 data-i18n="writings.title">文录</h2>
+            <p class="page-head-sub" data-i18n="writings.subtitle">— Scripta Varia —</p>
+        </header>
+
+        <div class="writings-toc">
+            <button class="toc-tab active" data-doc="atakta" data-i18n="writings.toc1">Ἄτακτα · 杂缀</button>
+            <button class="toc-tab" data-doc="scholia" data-i18n="writings.toc2">Σχόλια · 注疏</button>
+            <button class="toc-tab" data-doc="hapanta" data-i18n="writings.toc3">Ἅπαν · 论一</button>
+            <button class="toc-tab" data-doc="syracusan" data-i18n="writings.toc4">叙拉古信札</button>
+        </div>
+
+        <div class="writing-display" id="writing-display">
+            <!-- 由 JS 渲染 -->
+        </div>
+    </section>
+
+    <!-- ============= 图志 ============= -->
+    <section class="page page-gallery" id="page-gallery">
+        <header class="page-head">
+            <div class="page-head-ornament">❧</div>
+            <h2 data-i18n="gallery.title">图志</h2>
+            <p class="page-head-sub" data-i18n="gallery.subtitle">— Imagines —</p>
+        </header>
+        <div class="gallery-grid" id="gallery-grid">
+            <!-- 由 JS 渲染 -->
+        </div>
+    </section>
+
+    <!-- ============= 缄后 ============= -->
+    <section class="page page-contact" id="page-contact">
+        <header class="page-head">
+            <div class="page-head-ornament">❦</div>
+            <h2 data-i18n="contact.title">缄后</h2>
+            <p class="page-head-sub" data-i18n="contact.subtitle">— Epistulae —</p>
+        </header>
+
+        <div class="contact-card">
+            <div class="contact-seal">Μ</div>
+            <div class="contact-row">
+                <span class="contact-label" data-i18n="contact.name">名号</span>
+                <span class="contact-value">韩金哲 / Han Jinzhe / Μουσαῖος</span>
+            </div>
+            <div class="contact-row">
+                <span class="contact-label" data-i18n="contact.affil">所隶</span>
+                <span class="contact-value" data-i18n="contact.affilValue">上海交通大学 · 外国语学院</span>
+            </div>
+            <div class="contact-row">
+                <span class="contact-label" data-i18n="contact.field">域</span>
+                <span class="contact-value" data-i18n="contact.fieldValue">古典学 · 德语文学</span>
+            </div>
+            <div class="contact-row">
+                <span class="contact-label" data-i18n="contact.email">鸿雁</span>
+                <a class="contact-value" href="mailto:hanjinzhe@sjtu.edu.cn">hanjinzhe@sjtu.edu.cn</a>
+            </div>
+        </div>
+
+        <div class="contact-colophon">
+            <p class="colophon-greek">εὖ πράττειν.</p>
+            <p class="colophon-text" data-i18n="contact.colophon">愿君安好。</p>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-ornament">❦ ✦ ❦</div>
+        <p>© MMXXVI · Μουσαῖος · <span data-i18n="footer.rights">版权所有</span></p>
+        <p class="footer-sub" data-i18n="footer.sub">Schola Linguarum Extranearum · Universitas Jiao Tong Shanghaiensis</p>
+    </div>
+</footer>
+
+<div class="binding-bottom">
+    <div class="binding-guilloche"></div>
+    <div class="binding-centerpiece">✦</div>
+    <div class="binding-guilloche"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
